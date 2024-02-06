@@ -1,7 +1,7 @@
 # Electra-AdversarialAttacks
 Improving Financial Sentiment Classification on ELECTRA using Adversarial Attacks.
 
-This study delves into sentiment analysis in the financial domain, with a focus on classifying text into positive, negative, or neutral sentiments. 
+This project delves into sentiment analysis in the financial domain, with a focus on classifying text into positive, negative, or neutral sentiments. 
 Utilizing an initially pre-trained ELECTRA-small model designed for general sentiment classification, a baseline model was crafted on financial sentiment data. 
 This model achieved an accuracy of 85.47% on the Financial PhraseBank dataset, with the primary source of error being misclassification between positive and neutral sentiment classes.
 While attempts to enrich the model's financial vocabulary using the FinRAD dataset led to a decrease in accuracy, the introduction of successful adversarial attacks notably improved baseline model performance. 
